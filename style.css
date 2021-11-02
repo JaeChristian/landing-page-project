@@ -19,7 +19,6 @@ button{
     align-items: center;
     height: 50px;
 }
-
 .header .left, .header .right{
     margin-left: 8%;
     margin-right: 8%;
@@ -59,13 +58,11 @@ button{
     font-weight: bolder;
     
 }
-
 .hero .body .secondary{
     color: #E5E7EB;
     font-size: 18px;
     width: 450px;
 }
-
 .hero .body button{
     margin-top: 10px;
     border-radius: 6px;
@@ -73,11 +70,77 @@ button{
     color: #f9faf8;
     width: 120px;
     height: 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
-
 .hero img{
     width: 500px;
     border-radius: 2px;
+}
+
+.information{
+    padding: 50px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.information .main{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.information .content{
+    display: flex;
+    gap: 40px;
+}
+.information .content .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.information .content .image .box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+.information .content .image p{
+    margin: 0px;
+    color: rgb(41, 45, 51);
+    width: 150px;
+    text-align: center;
+    padding: 0px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;
+    height: 400px;
+}
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 800px;
+}
+.quote .container .content{
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote .container .signature{
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.calltoaction{
+    height: 300px;
 }
